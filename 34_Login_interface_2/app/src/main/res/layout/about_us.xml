@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_background">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="115dp"
+        android:layout_height="125dp"
+        android:layout_margin="20dp"
+        app:srcCompat="@drawable/pic1" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="98dp"
+        android:layout_height="93dp"
+        android:layout_marginLeft="320dp"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/headingTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="Description:"
+        android:textColor="#000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/round_cover"
+        android:padding="20dp"
+        android:text="As a passionate app developer with a strong focus on creating intuitive and user-friendly applications, I bring innovative ideas to life through cutting-edge technologies. With expertise in both front-end and back-end development, I specialize in building scalable, high-performance apps that solve real-world problems. I am proficient in various programming languages and frameworks, ensuring seamless functionality and a polished user experience across platforms. Whether it’s developing custom solutions or optimizing existing apps, I thrive on delivering impactful results that exceed expectations."
+        android:textColor="#220A0A"
+        android:textSize="20dp"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/inputField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="673dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/round_cover"
+        android:hint="Enter your comments"
+        android:inputType="text"
+        android:padding="12dp"
+        android:textColor="#BF8888"
+        android:textSize="18dp"
+        android:textStyle="italic"/>
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/inputField"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="-60dp"
+        android:padding="12dp"
+        android:text="Submit" />
+
+</RelativeLayout>
